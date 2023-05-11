@@ -49,10 +49,6 @@ nav li {
     align-items: center;
 }
 
-nav .my-row {
-    justify-content: left;
-}
-
 .my-col-1-3 {
     width: calc(100% / 3);
 }
@@ -67,6 +63,19 @@ nav .my-row {
 
 .nav-icons > * {
     margin: 0 10px;
+}
+
+.main-img {
+    position: relative;
+}
+
+.main-img > * {
+    height: 500px;
+}
+
+main .my-row {
+    width: 80%;
+    align-self: center;
 }
 
 
