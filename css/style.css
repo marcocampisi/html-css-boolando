@@ -24,7 +24,6 @@ header * {
     color: white;
 }
 
-
 nav > .my-row {
     width: 80%;
 }
@@ -86,6 +85,18 @@ main .container {
 
 .main-img > * {
     width: 100%;
+}
+
+.img-b {
+    display:none;
+}
+
+.main-img:hover .img-a {
+    display: none;
+}
+
+.main-img:hover .img-b {
+    display: block;
 }
 
 main .my-row {
