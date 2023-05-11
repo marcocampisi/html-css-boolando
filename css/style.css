@@ -13,11 +13,17 @@
 
 header {
     background-color: #FF5B00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 header * {
     color: white;
 }
+
 
 nav > .my-row {
     width: 80%;
@@ -33,6 +39,10 @@ nav li {
     list-style: none;
     display: inline;
     padding: 0 20px;
+}
+
+main {
+    margin-top: 60px;
 }
 
 .container {
