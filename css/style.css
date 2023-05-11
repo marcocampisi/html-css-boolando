@@ -17,8 +17,9 @@ header * {
     color: white;
 }
 
-header .my-row {
+nav > .my-row {
     width: 80%;
+    margin-bottom: 0;
 }
 
 nav {
