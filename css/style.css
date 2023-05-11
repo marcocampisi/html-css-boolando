@@ -72,7 +72,7 @@ main {
     margin: 0 50px;
 }
 
-.my-col-1-2 > * {
+.my-col-1-2 * {
     color: white;
 }
 
@@ -214,4 +214,8 @@ footer .my-row {
 #contacts * {
     font-size: 1.2em;
     margin: 5px 0;
+}
+
+li a:link {
+    text-decoration: none;
 }
